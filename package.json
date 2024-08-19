@@ -1,0 +1,16 @@
+{
+  "name": "tsc-patcher",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@stacksjs/cli": "^0.62.0",
+    "@typek/clap": "npm:@jsr/typek__clap",
+    "@typek/typek": "^0.6.1"
+  }
+}
